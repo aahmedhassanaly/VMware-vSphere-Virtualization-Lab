@@ -79,22 +79,21 @@ This is expected in a nested virtualization environment.
 
 ### NTP Configuration
 
-<!-- Add screenshot here -->
+<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/aed64ec3-8a3a-4aac-b19d-0c3a2fd9691f" />
 
 ### Management Network
 
-<!-- Add screenshot here -->
+<img width="1586" height="699" alt="image" src="https://github.com/user-attachments/assets/3f4e202d-d305-4081-a761-fa17154e0a35" />
 
 ### ESXi Services
+<img width="1919" height="776" alt="image" src="https://github.com/user-attachments/assets/58da73dc-df87-46cd-ad34-f253b2b87d99" />
 
-<!-- Add screenshot here -->
 
 ## Result
 
 The three ESXi hosts have a basic operational baseline.
 
 NTP, Management networking, and important services were verified. The main remaining infrastructure issue is the isolated Layer 2 network design.
-<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/aed64ec3-8a3a-4aac-b19d-0c3a2fd9691f" />
 
 ## What I Learned
 
@@ -103,12 +102,3 @@ NTP, Management networking, and important services were verified. The main remai
 - The same IP subnet does not always mean the same Layer 2 network.
 - Nested ESXi does not provide physical hardware sensor data.
 
-## Interview Questions
-
-**Why is NTP important in VMware?**
-
-It keeps system time consistent and helps with authentication, logs, certificates, and infrastructure services.
-
-**Can two hosts use the same subnet but be on different Layer 2 networks?**
-
-Yes. The networks can use the same IP range while remaining isolated.
