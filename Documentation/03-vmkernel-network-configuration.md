@@ -42,6 +42,10 @@ Management addresses:
 - ESXi-02: `192.168.122.135`
 - ESXi-03: `192.168.122.116`
 
+<img width="1914" height="836" alt="Management VMkernel ESXi-01" src="https://github.com/user-attachments/assets/59d8ad19-ea8d-4272-b731-259a43fb7ba7" />
+
+<img width="1914" height="836" alt="Management VMkernel ESXi-02" src="https://github.com/user-attachments/assets/2f44b3bd-893a-4119-8cd3-b2428aaf164b" />
+
 ### Lab VMkernel
 
 The Lab Network uses `vmk1`.
@@ -75,6 +79,8 @@ The final configuration is:
 - ESXi-01: `192.168.210.11`
 - ESXi-02: `192.168.210.12`
 - ESXi-03: `192.168.210.13`
+
+<img width="1111" height="651" alt="vMotion VMkernel" src="https://github.com/user-attachments/assets/4fe11fcc-d31a-44bd-b354-03dcbf604a34" />
 
 ## Verification
 
@@ -134,6 +140,8 @@ The actual live migration test will be performed later after the vCenter and clu
 The ESXi hosts use a vSphere 8 Enterprise Plus license that provides the vSphere vMotion feature.
 
 This allowed the vMotion service to be enabled on the VMkernel interfaces.
+
+<img width="1910" height="783" alt="vSphere Enterprise Plus License" src="https://github.com/user-attachments/assets/c268a195-0897-40c3-aa6e-118c386f0dd3" />
 
 ## Result
 
