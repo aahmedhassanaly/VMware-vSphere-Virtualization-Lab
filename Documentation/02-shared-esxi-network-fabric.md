@@ -68,6 +68,18 @@ Connectivity was tested using the ESXi VMkernel interface:
 
 The tests confirmed connectivity between the ESXi hosts over the overlay network.
 
+### ESXi-01 VMkernel
+
+<img width="1848" height="795" alt="ESXi-01 VMkernel" src="https://github.com/user-attachments/assets/dace23f7-8114-46c8-968b-8173bd3541db" />
+
+### ESXi-02 VMkernel
+
+<img width="1919" height="798" alt="ESXi-02 VMkernel" src="https://github.com/user-attachments/assets/20b50f40-f976-4b8d-b4a4-76d3bbe3cfcc" />
+
+### ESXi-03 VMkernel
+
+<img width="1915" height="855" alt="ESXi-03 VMkernel" src="https://github.com/user-attachments/assets/d3a5e62f-bb77-46fe-a8d1-a375824c3cd8" />
+
 ## Persistence Verification
 
 The VXLAN and bridge configuration was verified after reboot.
