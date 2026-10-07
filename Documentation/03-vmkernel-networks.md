@@ -42,7 +42,8 @@ Management addresses:
 - ESXi-02: `192.168.122.135`
 - ESXi-03: `192.168.122.116`
 
-<!-- Add screenshot of management VMkernel configuration here -->
+<img width="1914" height="836" alt="image" src="https://github.com/user-attachments/assets/59d8ad19-ea8d-4272-b731-259a43fb7ba7" />
+<img width="1914" height="836" alt="image" src="https://github.com/user-attachments/assets/2f44b3bd-893a-4119-8cd3-b2428aaf164b" />
 
 ### Lab VMkernel
 
@@ -56,7 +57,6 @@ Lab addresses:
 - ESXi-02: `192.168.200.12`
 - ESXi-03: `192.168.200.13`
 
-<!-- Add screenshot of Lab VMkernel configuration here -->
 
 ### vMotion Port Group
 
@@ -68,7 +68,6 @@ The default security settings were kept:
 - MAC Address Changes: Reject
 - Forged Transmits: Reject
 
-<!-- Add screenshot of vMotion Port Group here -->
 
 ### vMotion VMkernel
 
@@ -82,11 +81,8 @@ The final configuration is:
 - ESXi-02: `192.168.210.12`
 - ESXi-03: `192.168.210.13`
 
-<!-- Add screenshot of ESXi-01 vMotion VMkernel here -->
+<img width="1111" height="651" alt="image" src="https://github.com/user-attachments/assets/4fe11fcc-d31a-44bd-b354-03dcbf604a34" />
 
-<!-- Add screenshot of ESXi-02 vMotion VMkernel here -->
-
-<!-- Add screenshot of ESXi-03 vMotion VMkernel here -->
 
 ## Verification
 
@@ -106,8 +102,8 @@ All six connectivity tests between the three hosts were successful.
 | ESXi-02 192.168.210.12 | ESXi-03 192.168.210.13 | Successful |
 | ESXi-03 192.168.210.13 | ESXi-01 192.168.210.11 | Successful |
 | ESXi-03 192.168.210.13 | ESXi-02 192.168.210.12 | Successful |
+<img width="1167" height="682" alt="image" src="https://github.com/user-attachments/assets/b6e0bf2a-2232-4a2a-be2d-b089bded581c" />
 
-<!-- Add screenshot of vmkping verification here -->
 
 ## Troubleshooting
 
@@ -149,25 +145,9 @@ The ESXi hosts use a vSphere 8 Enterprise Plus license that provides the vSphere
 
 This allowed the vMotion service to be enabled on the VMkernel interfaces.
 
-<!-- Add screenshot of vSphere license features here -->
+<img width="1910" height="783" alt="image" src="https://github.com/user-attachments/assets/c268a195-0897-40c3-aa6e-118c386f0dd3" />
 
-## Evidence
 
-### VMkernel Configuration
-
-<!-- Add screenshot here -->
-
-### vMotion Port Group
-
-<!-- Add screenshot here -->
-
-### vMotion VMkernel Service
-
-<!-- Add screenshot here -->
-
-### vMotion Network Connectivity
-
-<!-- Add screenshot here -->
 
 ## Result
 
