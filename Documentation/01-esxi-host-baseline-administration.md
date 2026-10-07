@@ -75,6 +75,20 @@ Hardware sensor data was not available because the nested ESXi hosts do not prov
 
 This is expected in a nested virtualization environment.
 
+## Evidence
+
+### NTP Configuration
+
+<img width="1919" height="860" alt="NTP Configuration" src="https://github.com/user-attachments/assets/aed64ec3-8a3a-4aac-b19d-0c3a2fd9691f" />
+
+### Management Network
+
+<img width="1586" height="699" alt="Management Network" src="https://github.com/user-attachments/assets/3f4e202d-d305-4081-a761-fa17154e0a35" />
+
+### ESXi Services
+
+<img width="1919" height="776" alt="ESXi Services" src="https://github.com/user-attachments/assets/58da73dc-df87-46cd-ad34-f253b2b87d99" />
+
 ## Result
 
 The three ESXi hosts have a basic operational baseline.
